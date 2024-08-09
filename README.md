@@ -41,9 +41,9 @@ Views in Django are Python functions or classes that handle requests and return 
    - The delete view manages the removal of employee records. When the user navigates to the delete URL, the view presents a confirmation page to ensure the user wants to proceed with the deletion. <br>
    - Upon confirmation, the view deletes the employee record from the database and redirects the user to the employee list or a confirmation page indicating the record has been successfully removed. <br> <br>
 <h4><b>How URLs and Views Work Together</b></h4>
-- URL Routing: When a user visits a URL, Django uses the patterns defined in `urls.py` to determine which view should handle the request. The URL pattern acts as a bridge between the user’s request and the view that processes it. <br>
-- View Execution: Once the appropriate view is identified, it executes the necessary logic, which may involve querying the database, processing data, or rendering a template. <br>
-- Response Generation: The view then generates an HTTP response, which could be an HTML page, JSON data, or a redirection to another URL, depending on the logic implemented in the view. <br> <br>
+<b>- URL Routing:</b> When a user visits a URL, Django uses the patterns defined in `urls.py` to determine which view should handle the request. The URL pattern acts as a bridge between the user’s request and the view that processes it. <br>
+<b>- View Execution:</b> Once the appropriate view is identified, it executes the necessary logic, which may involve querying the database, processing data, or rendering a template. <br>
+<b>- Response Generation:</b> The view then generates an HTTP response, which could be an HTML page, JSON data, or a redirection to another URL, depending on the logic implemented in the view. <br> <br>
 
 <h3><b>TEMPLATES</b></h3>
 Templates are used by views to render the data and create the HTML pages that users interact with. Each view passes data to a corresponding template, which then formats and displays it. The relationship between URLs, views, and templates forms the backbone of Django’s Model-View-Template (MVT) architecture, ensuring a clean separation between data management, business logic, and presentation layers. <br> <br>
