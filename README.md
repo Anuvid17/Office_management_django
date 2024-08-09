@@ -2,10 +2,10 @@
 <h3><b>OBJECTIVE</b> </h3>
 To develop an office management system using Django and PostgreSQL, providing CRUD functionality for employee records with secure, role-based access control. <br>
 <h4><b>Tools and Libraries Used</h4></b>
-•	Django: A high-level Python web framework used for building the web application. It provides an organized structure for managing the project, handling HTTP requests, and interacting with the database. <br>
-•	PostgreSQL: An open-source relational database management system used to store and manage the data in the project. PostgreSQL is known for its robustness and scalability. <br>
-•	psycopg2: A PostgreSQL adapter for Python, used to connect the Django application to the PostgreSQL database. <br>
-•	Django's Built-in Authentication System: Utilized for managing user authentication, including role-based access control. <br>
+<b>•	Django:</b> A high-level Python web framework used for building the web application. It provides an organized structure for managing the project, handling HTTP requests, and interacting with the database. <br>
+<b>•	PostgreSQL:</b> An open-source relational database management system used to store and manage the data in the project. PostgreSQL is known for its robustness and scalability. <br>
+<b>•	psycopg2:</b> A PostgreSQL adapter for Python, used to connect the Django application to the PostgreSQL database. <br>
+<b>•	Django's Built-in Authentication System:</b> Utilized for managing user authentication, including role-based access control. <br>
 <h4><b>Methodology</h4></b>
 <b>1.	Set Up the Django Project:</b> <br>
 o	The project began by installing Django and the necessary dependencies for PostgreSQL integration. A new Django project was created, serving as the main structure for the office management system. Within this project, an application specifically for handling employee-related data was set up. This modular approach allows for better organization and management of the project components. <br> <br>
@@ -16,7 +16,7 @@ o	In this phase, the data model for the Employee entity was defined. This model 
 <b>4. Set Up Role-Based Authentication:</b> <br>
 o	Role-based authentication was implemented to ensure that only authorized users could perform specific actions within the system. User roles such as Admin and Manager were created using Django’s built-in Group model. These roles were then assigned permissions that determined their level of access to the CRUD operations. The views in the application were updated to enforce these role checks, ensuring that only users with the appropriate permissions could access or modify employee data. <br> <br>
 <b>5. Set Up URLs and Templates:</b> <br>
-<h2><b>URLs (Uniform Resource Locators) </h2></b>
+<b>URLs (Uniform Resource Locators) </b>
 In Django, the `urls.py` files play a crucial role in mapping incoming HTTP requests to the appropriate views, which handle the logic and return the corresponding responses. There are typically two `urls.py` files involved in a Django project: <br>
 <b>1. Project-level `urls.py`:</b> <br>
    - This file is located in the main project directory (e.g., `office_management/urls.py`). It serves as the entry point for all incoming requests to the Django project. <br>
