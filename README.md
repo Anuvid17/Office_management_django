@@ -6,7 +6,7 @@ To develop an office management system using Django and PostgreSQL, providing CR
 <b>•	PostgreSQL:</b> An open-source relational database management system used to store and manage the data in the project. PostgreSQL is known for its robustness and scalability. <br>
 <b>•	psycopg2:</b> A PostgreSQL adapter for Python, used to connect the Django application to the PostgreSQL database. <br>
 <b>•	Django's Built-in Authentication System:</b> Utilized for managing user authentication, including role-based access control. <br>
-<h4><b>Methodology</h4></b>
+<h3><b>Methodology</h3></b>
 <b>1.	Set Up the Django Project:</b> <br>
 o	The project began by installing Django and the necessary dependencies for PostgreSQL integration. A new Django project was created, serving as the main structure for the office management system. Within this project, an application specifically for handling employee-related data was set up. This modular approach allows for better organization and management of the project components. <br> <br>
 <b>2.	Configure PostgreSQL:</b> <br>
@@ -45,10 +45,10 @@ Views in Django are Python functions or classes that handle requests and return 
 - View Execution: Once the appropriate view is identified, it executes the necessary logic, which may involve querying the database, processing data, or rendering a template. <br>
 - Response Generation: The view then generates an HTTP response, which could be an HTML page, JSON data, or a redirection to another URL, depending on the logic implemented in the view. <br> <br>
 
-<h4><b>TEMPLATES</b></h4>
+<h3><b>TEMPLATES</b></h3>
 Templates are used by views to render the data and create the HTML pages that users interact with. Each view passes data to a corresponding template, which then formats and displays it. The relationship between URLs, views, and templates forms the backbone of Django’s Model-View-Template (MVT) architecture, ensuring a clean separation between data management, business logic, and presentation layers. <br> <br>
 <b>6.	Create Superuser and Assign Permissions:</b> <br>
 o	A superuser was created to manage the application through Django’s admin panel. This user had full access to the system and could create and manage other user roles and permissions. Using the admin interface, the necessary roles were created, and specific permissions were assigned to ensure that the application’s access control was in place. <br>
 
-<h4><b>CONCLUSION</b></h4>
+<h3><b>CONCLUSION</b></h3>
 The project successfully created a secure office management system with role-based authentication, enabling efficient management of employee records through a scalable and adaptable web application.
