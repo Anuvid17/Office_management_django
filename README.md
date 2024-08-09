@@ -46,7 +46,7 @@ Views in Django are Python functions or classes that handle requests and return 
 - Response Generation: The view then generates an HTTP response, which could be an HTML page, JSON data, or a redirection to another URL, depending on the logic implemented in the view. <br> <br>
 
 <h4><b>TEMPLATES</b></h4>
-Templates are used by views to render the data and create the HTML pages that users interact with. Each view passes data to a corresponding template, which then formats and displays it. The relationship between URLs, views, and templates forms the backbone of Django’s Model-View-Template (MVT) architecture, ensuring a clean separation between data management, business logic, and presentation layers. <br>
+Templates are used by views to render the data and create the HTML pages that users interact with. Each view passes data to a corresponding template, which then formats and displays it. The relationship between URLs, views, and templates forms the backbone of Django’s Model-View-Template (MVT) architecture, ensuring a clean separation between data management, business logic, and presentation layers. <br> <br>
 <b>6.	Create Superuser and Assign Permissions:</b> <br>
 o	A superuser was created to manage the application through Django’s admin panel. This user had full access to the system and could create and manage other user roles and permissions. Using the admin interface, the necessary roles were created, and specific permissions were assigned to ensure that the application’s access control was in place. <br>
 
