@@ -1,4 +1,4 @@
-<h3><b>OBJECTIVE</b> </h3>h3> <br>
+<h3><b>OBJECTIVE</b> </h3> <br>
 To develop an office management system using Django and PostgreSQL, providing CRUD functionality for employee records with secure, role-based access control. <br>
 <h4>Tools and Libraries Used</h4> <br>
 •	Django: A high-level Python web framework used for building the web application. It provides an organized structure for managing the project, handling HTTP requests, and interacting with the database. <br>
@@ -8,7 +8,7 @@ To develop an office management system using Django and PostgreSQL, providing CR
 <h4>Methodology</h4> <br>
 1.	Set Up the Django Project: <br>
 o	The project began by installing Django and the necessary dependencies for PostgreSQL integration. A new Django project was created, serving as the main structure for the office management system. Within this project, an application specifically for handling employee-related data was set up. This modular approach allows for better organization and management of the project components. <br>
-2.	Configure PostgreSQL:
+2.	Configure PostgreSQL: <br>
 o	The next step involved configuring the Django project to use PostgreSQL as its database backend. The database connection details, such as the database name, user credentials, and host information, were added to the project settings. Following the configuration, database migrations were run to set up the initial schema, preparing the database for data storage and retrieval.
 3.	Define Models:
 o	In this phase, the data model for the Employee entity was defined. This model included fields for storing employee details such as first name, last name, designation, and role. The Employee model was also linked to Django’s built-in user authentication system, enabling each employee to have a corresponding user account. After defining the model, it was included in the project’s settings, and migrations were created and applied to update the database schema.
