@@ -16,7 +16,7 @@ o	In this phase, the data model for the Employee entity was defined. This model 
 <b>4. Set Up Role-Based Authentication:</b> <br>
 o	Role-based authentication was implemented to ensure that only authorized users could perform specific actions within the system. User roles such as Admin and Manager were created using Django’s built-in Group model. These roles were then assigned permissions that determined their level of access to the CRUD operations. The views in the application were updated to enforce these role checks, ensuring that only users with the appropriate permissions could access or modify employee data. <br> <br>
 <b>5. Set Up URLs and Templates:</b> <br>
-<b>URLs (Uniform Resource Locators) </b>
+<b>URLs (Uniform Resource Locators) </b> <br>
 In Django, the `urls.py` files play a crucial role in mapping incoming HTTP requests to the appropriate views, which handle the logic and return the corresponding responses. There are typically two `urls.py` files involved in a Django project: <br>
 <b>1. Project-level `urls.py`:</b> <br>
    - This file is located in the main project directory (e.g., `office_management/urls.py`). It serves as the entry point for all incoming requests to the Django project. <br>
